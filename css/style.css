@@ -87,7 +87,7 @@ button:hover{ background: #ccc; }
 
 .addbutton{
 	position: fixed;
-	bottom: 20px;
+	bottom: 40px;
 	right: 30px;
 	font-family: "Avenir-Light";
 	font-size: 2em;
@@ -176,4 +176,42 @@ button:hover{ background: #ccc; }
 
 .white_key:hover{
 	background: #ddd;
+}
+.footer{
+	position: absolute; 
+	bottom: 0px;
+	width: 100%;
+
+	height: 30px;
+	background: #333;
+	font-family: "Avenir-Light";	
+	color: white;
+}
+
+.footer a{
+	color: #0CA7DB;
+	text-decoration: none;		    
+}
+.gitclone{
+	margin-top: 5px;
+	margin-left: 20px; margin-right: 20px; float: left;
+}
+
+.separator{
+	height: 100%;
+	width: 1px;
+	background: #666;
+	float: left;
+	margin-right: 10px;
+}
+.author{ 
+	 margin-top: 5px;
+	 float: left;
+	 margin-right: 20px;
+}
+.license{
+	margin-top: 5px;
+}
+.footer a:hover{
+	color: orange;
 }
