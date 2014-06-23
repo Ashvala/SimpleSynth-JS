@@ -35,7 +35,7 @@ How to use it:
 - Include StupidSimpleSynth.js
 
 ```
-<script src="StupidSimpleSynth.js">
+<script src="StupidSimpleSynth.js"> </script>
 ```
 
 - For the moment, frequencies are hard coded in, so, if you want to enter a custom frequency (looking at you, microtonal music enthusiasts), all you have to do is add 
