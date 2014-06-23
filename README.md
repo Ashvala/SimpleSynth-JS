@@ -1,7 +1,7 @@
 StupidSimpleSynth.js
 ====================
 
-Re-creating the magic of Stupid Simple Synth! But, on WebKit!
+Re-creating the magic of [Stupid Simple Synth!](http://github.com/ashvala/stupidsimplesynth) But, on WebKit!
 
 
 Demo: 
