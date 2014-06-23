@@ -39,15 +39,23 @@ C5 = {frequency: (C2.frequency*8)};
 $(document).ready(function(){
 	var context = new webkitAudioContext();
 	oscillator = context.createOscillator();
-	var osci_bool = 0;
-	
+	var osci_bool = 0;	
 	oscillator.noteOn(0);
+	var active_osci = "sine";
+	
+	console.log(active_osci);
+	$(".osc_type").click(function(){
+		active_osci = $(this).attr("id");		
+		console.log(active_osci);
+	    });
 	$(".key").mousedown(function(){
 		val = $(this).attr("id");
 		oscillator.frequency.value = eval(val).frequency;
-		$("#freq_mon").val(oscillator.frequency.value);
+		oscillator.type = active_osci;
+		str = oscillator.frequency.value + "::" + val; 
+		$("#freq_mon").val(str);
 		oscillator.connect(context.destination);
 	    }).mouseup(function(){
-		    oscillator.disconnect(context.destination);
+		    oscillator.disconnect(context.destination);		    
 		});
     });
