@@ -61,8 +61,12 @@ button{
 	margin-bottom: 20px;
 	outline: none !important;
 }
-osc_type .active{
+.active{
        background: #333;
+       color: #0CA7DB;
+}
+.active:hover{
+	background: #555;
 }
 .field{
 	background: #ddd;

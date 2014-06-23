@@ -41,12 +41,19 @@ $(document).ready(function(){
 	oscillator = context.createOscillator();
 	var osci_bool = 0;	
 	oscillator.noteOn(0);
-	var active_osci = "sine";
-	
+	var active_osci = $(".active").attr("id");	
 	console.log(active_osci);
 	$(".osc_type").click(function(){
 		active_osci = $(this).attr("id");		
-		console.log(active_osci);
+		var current = $(this);
+		$(".osc_type").each(function(){
+			if ($(this).hasClass("active") === true && $(this).attr("id") !== active_osci && $(this) !== current){
+			    console.log($(this));
+			    $(this).removeClass("active");
+			    current.addClass("active");
+		
+			}
+		    });
 	    });
 	$(".key").mousedown(function(){
 		val = $(this).attr("id");
