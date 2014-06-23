@@ -7,7 +7,7 @@ Re-creating the magic of Stupid Simple Synth! But, on WebKit!
 Demo: 
 =====================
 
-http://http://ashvala.github.io/StupidSimpleSynth-JS
+http://ashvala.github.io/StupidSimpleSynth-JS
 
 
 Requires: 
