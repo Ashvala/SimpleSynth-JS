@@ -1,3 +1,9 @@
+function note(name, MIDINote, frequency){ 
+    this.name = name;
+    this.MIDINote = MIDINote;
+    this.frequency = frequency;
+}
+
 C2 = {frequency: 65.41};
 Cs2 = {frequency: 69.30};
 D2 = {frequency: 73.42};
