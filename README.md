@@ -40,7 +40,7 @@ How to use it:
 
 - For the moment, frequencies are hard coded in, so, if you want to enter a custom frequency (looking at you, microtonal music enthusiasts), all you have to do is add 
 ```
-Note_name = {frequency: <integer goes here>};
+var Note_name = new note("NoteName", MIDINote, frequency);
 ```
 to StupidSimpleSynth.js
 
