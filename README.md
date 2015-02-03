@@ -27,20 +27,22 @@ How to use it:
 ======================
 
 - Include JQuery, probably from the google hosted libraries
+
  
 ```
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 ```
 
 - Include StupidSimpleSynth.js
 
 ```
-<script src="StupidSimpleSynth.js"> </script>
+	<script src="StupidSimpleSynth.js"> </script>
 ```
 
 - For the moment, frequencies are hard coded in, so, if you want to enter a custom frequency (looking at you, microtonal music enthusiasts), all you have to do is add 
+
 ```
-var Note_name = new note("NoteName", MIDINote, frequency);
+	var Note_name = new note("NoteName", MIDINote, frequency);
 ```
 to StupidSimpleSynth.js
 
@@ -51,7 +53,7 @@ The default behaviour is to take the ID attribute from a div or button with the 
 Example: 
 
 ```
-<button class="key" id="A4"> A4 </button> 
+	<button class="key" id="A4"> A4 </button> 
 ```
 
 Open the page on Chrome/Safari and press the button. A sine wave should be generated with that. 
@@ -60,3 +62,9 @@ Purpose:
 =======================
 
 To get you started with your WebAudio geekery.
+
+
+License:
+==============
+
+MIT License. Yeah!
