@@ -1,7 +1,7 @@
 StupidSimpleSynth.js
 ====================
 
-Re-creating the magic of [Stupid Simple Synth!](http://github.com/ashvala/stupidsimplesynth) But, on WebKit!
+Re-creating the magic of [ Simple Synth!](http://github.com/ashvala/simplesynth) But, on WebKit!
 
 
 Demo: 
@@ -44,7 +44,7 @@ How to use it:
 ```
 	var Note_name = new note("NoteName", MIDINote, frequency);
 ```
-to StupidSimpleSynth.js
+to SimpleSynth.js
 
 The default behaviour is to take the ID attribute from a div or button with the class "key".
 
