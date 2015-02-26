@@ -7,7 +7,7 @@ Re-creating the magic of [ Simple Synth!](http://github.com/ashvala/simplesynth)
 Demo: 
 =====================
 
-http://ashvala.github.io/StupidSimpleSynth-JS
+http://ashvala.github.io/SimpleSynth-JS
 
 
 Requires: 
@@ -36,7 +36,7 @@ How to use it:
 - Include StupidSimpleSynth.js
 
 ```
-	<script src="StupidSimpleSynth.js"> </script>
+	<script src="SimpleSynth.js"> </script>
 ```
 
 - For the moment, frequencies are hard coded in, so, if you want to enter a custom frequency (looking at you, microtonal music enthusiasts), all you have to do is add 
