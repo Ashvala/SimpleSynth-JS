@@ -1,4 +1,4 @@
-StupidSimpleSynth.js
+SimpleSynth.js
 ====================
 
 Re-creating the magic of [ Simple Synth!](http://github.com/ashvala/simplesynth) But, on WebKit!
